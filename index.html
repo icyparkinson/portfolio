@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Icy Parkinson</title>
+
+		<!-- external CSS link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script src="https://kit.fontawesome.com/486eb34bf6.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet">  
+		<!-- <link rel="stylesheet" href="css/normalize.css"> -->
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+        <header id="home">
+            <nav>
+                <ul>
+                    <li><a href="#home" id = "navHome">Home</a></li>
+                    <li><a href="#aboutMe" id = "navAbout">About</a></li>
+                    <li><a href="#projectList" id = "navProject">Projects</a></li>
+                    <li><a href="#contact" id = "navContact">Contact</a></li>
+                   
+
+                     <!-- The overlay -->
+                      <div id="myNav" class="overlay">
+
+                        <!-- Button to close the overlay navigation -->
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                        <!-- Overlay content -->
+                        <div class="overlay-content">
+                          <a href="#home" onclick="closeNav()">Home</a>
+                          <a href="#aboutMe" onclick="closeNav()">About</a>
+                          <a href="#projectList" onclick="closeNav()">Projects</a>
+                          <a href="#contact" onclick="closeNav()">Contact</a>
+                        </div>
+
+                      </div>
+
+                      <!-- Use any element to open/show the overlay navigation menu -->
+                      <span onclick="openNav()"> <span><i id = "hamburger" class="fa-solid fa-list"></i></span></span> 
+
+
+                </ul>
+            </nav>
+        </header>
+            <main>
+                <!-- <section>
+                    <img class = "profile" src="seattle.jpg">
+                </section> -->
+                <section>
+                    <h1>Icy Parkinson</h1>
+                    <span>Software Engineer</span>
+                    <span>+ Full Stack Web Developer</span>
+                </section>
+            </main>  
+                <section class = "page right" id="aboutMe">
+                  <section>
+                    <img class = "profile buffer" src="https://media-exp1.licdn.com/dms/image/C5603AQFw3MwLmgKrYQ/profile-displayphoto-shrink_800_800/0/1642186804522?e=1650499200&v=beta&t=aTag5JNBQ1fwgnp6cSL-JrqQK6W0ZTTTy1x3Jz53wwM">
+                  </section>
+                  <section class="about">
+                      <h2>About Me</h2>
+                      <p>
+                        Hi! I'm a Seattle-based software engineer who primarily uses JavaScript to improve systems and solve problems. I graduated from the University of Washington School of Pharmacy and worked as a pharmacist for 6 years before deciding to transition into programming.
+                    </p>
+                    <p>
+                      My key strengths include: Team-oriented player, Quick-learner, Attention to detail, Multitasking, Communication
+                    </p>
+                    <section id = "socials">
+                      <a href="https://twitter.com/Koulight44" target="_blank"><i id = "twitter" class="fa-brands fa-twitter"></i></a>
+                      <a href="https://github.com/koulight" target="_blank"><i id = "github" class="fa-brands fa-github"></i></a>
+                      <a href="https://www.linkedin.com/in/koulight/" target="_blank"><i id = "linkedin" class="fa-brands fa-linkedin"></i></a>
+                      <a href="mailto:koulight@hotmail.com"><i id = "email" class="fa-solid fa-envelope"></i></a>
+                    </section>
+                    </section>
+                </section>
+                <section class = "right projects" id="projectList">
+                  <h2>Projects</h2>
+                  <section class="trio">
+                    <section>
+
+                      <section class="row1">
+                        <img src="eevee.gif">
+                        <section>
+                          <span class="title">Eeveelution Picker</span>
+                          <span>A simple web app that allows you to select your favorite eevee evolution!</span>
+                          <button type="button" id="live1">Live Site</button>
+                          <button type="button" id="code1">View Code</button>
+                        </section>
+                      </section>
+
+                      <section class="row1">
+                        <img src="eevee.gif">
+                        <section>
+                          <span class="title">Eeveelution Picker</span>
+                          <span>A simple web app that allows you to select your favorite eevee evolution!</span>
+                          <button type="button" id="live1">Live Site</button>
+                          <button type="button" id="code1">View Code</button>
+                        </section>
+                      </section>
+
+                      <section class="row1">
+                        <img src="eevee.gif">
+                        <section>
+                          <span class="title">Eeveelution Picker</span>
+                          <span>A simple web app that allows you to select your favorite eevee evolution!</span>
+                          <button type="button" id="live1">Live Site</button>
+                          <button type="button" id="code1">View Code</button>
+                        </section>
+                      </section>
+
+                    </section>
+
+                      <section>
+                        <section class="row2">
+                          <img src="eevee.gif">
+                        <section>
+                          <span class="title">Eeveelution Picker</span>
+                          <span>A simple web app that allows you to select your favorite eevee evolution!</span>
+                          <button type="button" id="live1">Live Site</button>
+                          <button type="button" id="code1">View Code</button>
+                        </section>
+                        </section>
+
+                        <section class="row2">
+                          <img src="eevee.gif">
+                          <section>
+                            <span class="title">Eeveelution Picker</span>
+                            <span>A simple web app that allows you to select your favorite eevee evolution!</span>
+                            <button type="button" id="live1">Live Site</button>
+                            <button type="button" id="code1">View Code</button>
+                          </section>
+                        </section>
+
+                        <section class="row2">
+                          <img src="eevee.gif">
+                        <section>
+                          <span class="title">Eeveelution Picker</span>
+                          <span>A simple web app that allows you to select your favorite eevee evolution!</span>
+                          <button type="button" id="live1">Live Site</button>
+                          <button type="button" id="code1">View Code</button>
+                        </section>
+                      </section>
+
+                    </section>
+                </section>
+
+                
+                <footer id="contact">
+                    <div class="formContainer contactForm">
+                        <h1>Contact Me</h1>
+                        <p class="reach"> Please reach out if you have any questions!</p>
+                        <p> You can email me at <b>koulight@hotmail.com</b></p>
+                        <p> Or send me a message here: </p>
+                        <form target="_blank" action="https://formsubmit.co/46d7ad6e5737e122c9f61ec0641ec3cb" method="POST">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                                <label for="email">Email</label>
+                                <input type="email" name="email" class="form-control" placeholder="Your Email Address" required>
+                                <label for="message">Message</label>
+                            <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
+                          <button type="submit">Send Message</button>
+                        </form>
+                        <span> <i class="fa-solid fa-copyright"></i> Icy Parkinson 2022 </span>
+                      </div>
+                      
+                  </footer>
+
+
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
