@@ -1,4 +1,4 @@
-let socials = ["#twitter", "#github", "#linkedin", "#email"]
+let socials = ["#github", "#linkedin", "#email"]
 
 socials.forEach(link => {
     document.querySelector(link).addEventListener("mouseover", highlightLink)
@@ -6,6 +6,7 @@ socials.forEach(link => {
 
 function highlightLink(){
     document.querySelector(link).style.backgroundColor="rgb(0, 122, 204"
+    console.log("Doggo!")
 }
 
 function highlightReset() {
@@ -33,7 +34,7 @@ function highReset(){
 })
 
 
-let buttons = ["#live1", "#code1"]
+let buttons = ["#live1", "#code1", "#live2", "#code2", "#live3", "#code3", "#live4", "#code4", "#live5", "#code5", "#live6", "#code6"]
 
 buttons.forEach(link => {
     document.querySelector(link).addEventListener("mouseover", highBut)
