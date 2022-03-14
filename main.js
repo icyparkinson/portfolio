@@ -34,26 +34,26 @@ function highReset(){
 })
 
 
-let buttons = ["#live1", "#code1", "#live2", "#code2", "#live3", "#code3", "#live4", "#code4", "#live5", "#code5", "#live6", "#code6"]
+// let buttons = ["#live1", "#code1", "#live2", "#code2", "#live3", "#code3", "#live4", "#code4", "#live5", "#code5", "#live6", "#code6"]
 
-buttons.forEach(link => {
-    document.querySelector(link).addEventListener("mouseover", highBut)
-    document.querySelector(link).addEventListener("mouseout", highButReset)
+// buttons.forEach(link => {
+//     document.querySelector(link).addEventListener("mouseover", highBut)
+//     document.querySelector(link).addEventListener("mouseout", highButReset)
 
-function highBut(){
-    document.querySelector(link).style.backgroundColor="white"
-    document.querySelector(link).style.color="black"
+// function highBut(){
+//     document.querySelector(link).style.backgroundColor="white"
+//     document.querySelector(link).style.color="black"
 
 
-}
+// }
 
-function highButReset(){
-    document.querySelector(link).style.backgroundColor="rgb(146	158	165	)"
-    document.querySelector(link).style.color="white"
+// function highButReset(){
+//     document.querySelector(link).style.backgroundColor="rgb(146	158	165	)"
+//     document.querySelector(link).style.color="white"
 
-}
+// }
 
-})
+// })
 
 
 /* Open when someone clicks on the span element */
