@@ -5,7 +5,7 @@ socials.forEach(link => {
     document.querySelector(link).addEventListener("mouseout", highlightReset)
 
 function highlightLink(){
-    document.querySelector(link).style.backgroundColor="rgb(0, 122, 204"
+    document.querySelector(link).style.backgroundColor="rgb(0, 122, 204)"
     console.log("Doggo!")
 }
 
