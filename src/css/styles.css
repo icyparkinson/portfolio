@@ -92,7 +92,7 @@
       border-top-right-radius: 20px;
       /* border-bottom-left-radius: 20px;
       border-bottom-right-radius: 20px; */
-      background-image: url(seattle4.png);
+      background-image: url(../images/seattle4.png);
       /* background-position: 0 -20px; */
       background-repeat: no-repeat;
       background-size:cover;
@@ -440,7 +440,7 @@
 
 
   /******************************************
-  /* ADDITIONAL STYLES
+  /* MEDIA QUERIES
   /*******************************************/
   
   @media all and (max-width: 1100px){
