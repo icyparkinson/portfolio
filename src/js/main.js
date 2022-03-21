@@ -6,7 +6,6 @@ socials.forEach(link => {
 
 function highlightLink(){
     document.querySelector(link).style.backgroundColor="rgb(0, 122, 204)"
-    console.log("Doggo!")
 }
 
 function highlightReset() {
