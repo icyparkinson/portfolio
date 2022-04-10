@@ -109,7 +109,8 @@
 
     .profile{
       width: 300px;
-      border-radius: 100%;
+      padding-top: 80px;
+      /* border-radius: 100%; */
   }
 
   h1{
