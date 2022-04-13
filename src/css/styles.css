@@ -96,7 +96,9 @@
       /* background-position: 0 -20px; */
       background-repeat: no-repeat;
       background-size:cover;
-      background-color: rgb(27	61	187)
+      background-color: rgb(27	61	187);
+      /* background: linear-gradient(45deg, #b39c68, #a56365, #412e4c); */
+      background-attachment: fixed, fixed;
       /* background: #466368;
         background: -webkit-linear-gradient(#6264dd, #292f50);
         background:    -moz-linear-gradient(#6264dd, #292f50);
@@ -125,11 +127,16 @@
       width: 100%;
       /* border: 1px solid red; */
       text-align: center;
-      padding: 140px 80px 180px 80px;
+      padding: 140px 80px 100px 80px;
       color: white;
-      background: -webkit-linear-gradient(#292f50, #6264dd);
-      background:    -moz-linear-gradient(#292f50, #6264dd);
-      background:         linear-gradient(#292f50, #6264dd);
+
+/*       
+      background: -webkit-linear-gradient(45deg, #292f50, #6264dd);
+      background:    -moz-linear-gradient(45deg, #292f50, #6264dd);
+      background:         linear-gradient(45deg, #292f50, #6264dd);
+     */
+      background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #292f50, #6264dd)
+
       /* border-top-left-radius: 20px;
       border-top-right-radius: 20px; */
       /* border-bottom-left-radius: 20px;
@@ -155,7 +162,7 @@
       color: white;
     }
     
-    .projects h2{
+    .projects h2, .about h2{
         border-left: 5px solid #6264dd;
         padding-left: 10px;
   }
@@ -168,6 +175,17 @@
   .buffer{
       margin-top: 60px;
   }
+
+
+ /******************************************
+  /* Special BG Lines
+  /*******************************************/
+
+
+.page{
+    /* background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat; */
+}
+
 
  
 
@@ -323,9 +341,10 @@
 
   footer{
       display: flex;
-      background: -webkit-linear-gradient(#6264dd, #292f50);
-        background:    -moz-linear-gradient(#6264dd, #292f50);
-        background:         linear-gradient(#6264dd, #292f50);
+      background: -webkit-linear-gradient(45deg,#292f50, #6264dd, #292f50);
+        background:    -moz-linear-gradient(45deg,#292f50, #6264dd, #292f50);
+        background:         linear-gradient(45deg,#292f50, #6264dd, #292f50);
+        /* background: linear-gradient(45deg, #292f50, #6264dd); */
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
         font-size: 2rem;
@@ -444,6 +463,12 @@
   /* MEDIA QUERIES
   /*******************************************/
   
+  @media all and (max-width: 1200px){
+    .right{
+        flex-direction: column;
+    }
+}
+
   @media all and (max-width: 1100px){
       body{
     /* background-color: rgb(27	61	187); */
@@ -465,6 +490,8 @@
     }
 
 
+
+
   @media all and (max-width:750px){
 
     header li{
@@ -476,10 +503,6 @@
         font-size: 3.5rem;
         color: white;
         margin: 10px 20px;
-    }
-
-    .right{
-        flex-direction: column;
     }
 }
 
