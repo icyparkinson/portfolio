@@ -92,13 +92,13 @@
       border-top-right-radius: 20px;
       /* border-bottom-left-radius: 20px;
       border-bottom-right-radius: 20px; */
-      background-image: url(../images/seattle4.png);
+      background-image: url(../images/seattlecolor2.jpg);
       /* background-position: 0 -20px; */
       background-repeat: no-repeat;
       background-size:cover;
-      background-color: rgb(27	61	187);
+      background-color: rgb(4	6	42	);
       /* background: linear-gradient(45deg, #b39c68, #a56365, #412e4c); */
-      background-attachment: fixed, fixed;
+      /* background-attachment: fixed, fixed; */
       /* background: #466368;
         background: -webkit-linear-gradient(#6264dd, #292f50);
         background:    -moz-linear-gradient(#6264dd, #292f50);
@@ -122,6 +122,20 @@
       line-height: 6rem;
       margin-top: 20px;
   }
+
+  /* .glow{
+      animation: glow 2s ease-in-out infinite alternate;
+  }
+
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e6bc00, 0 0 20px #e6bc00, 0 0 25px #e6bc00, 0 0 30px #e6bc00, 0 0 35px #e6bc00;
+    }
+    
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 15px #ffd54d, 0 0 20px #ffd54d, 0 0 25px #ffd54d, 0 0 30px #ffd54d, 0 0 35px #ffd54d, 0 0 40px #ffd54d;
+    }
+  } */
 
   .page{
       width: 100%;
@@ -177,16 +191,6 @@
   }
 
 
- /******************************************
-  /* Special BG Lines
-  /*******************************************/
-
-
-.page{
-    /* background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat; */
-}
-
-
  
 
 
@@ -194,6 +198,9 @@
   /* Projects
   /*******************************************/
 
+  #projectList{
+    background: linear-gradient( rgb(236	172	136)	, rgb(220	99	122	), rgb(37	33	80	));
+  }
   
   .trio section{
       display: flex;
@@ -206,8 +213,8 @@
   .projects{
       display: flex;
       flex-direction: column;
-      margin: 20px 50px;
-      padding-bottom: 210px;
+      padding: 20px 50px;
+      padding-bottom: 250px;
   }
 
 
@@ -232,6 +239,8 @@
       display: block;
       width: 400px;
       padding-top: 30px;
+      background: black;
+      
   }
 
   .trio span{
@@ -348,7 +357,6 @@
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
         font-size: 2rem;
-        margin-top: 50px;
   }
 
   footer span{

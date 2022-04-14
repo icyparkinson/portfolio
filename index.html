@@ -52,14 +52,14 @@
         </header>
             <main>
                 <section>
-                    <h1>Icy Parkinson</h1>
+                    <h1 class="glow">Icy Parkinson</h1>
                     <span>Software Engineer</span>
                     <span>+ Full Stack Web Developer</span>
                 </section>
             </main>  
                 <section class = "page right" id="aboutMe">
                   <section>
-                    <img class = "profile buffer" src="src/images/uwlogo.png" alt = "Icy Parkinson">
+                    <img class = "profile buffer" src="src/images/uwlogo.png" alt = "UW Logo">
                   </section>
                   <section class="about">
                       <h2>About Me</h2>
@@ -173,10 +173,12 @@
                         <p> You can email me at <b>icyparkinson@gmail.com</b></p>
                         <p> Or send me a message here: </p>
                         <form target="_blank" name="contact" method="POST" data-netlify="true">
+                
                                 <label for="name">Name</label>
                                 <input type="text" name="name" class="form-control" placeholder="Full Name" required>
                                 <label for="email">Email</label>
-                                <input type="email" name="email" class="form-control" placeholder="Your Email Address" required>
+                                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                     
                                 <label for="message">Message</label>
                             <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
                           <button type="submit">Send Message</button>
