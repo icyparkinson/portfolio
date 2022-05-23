@@ -141,7 +141,7 @@
       width: 100%;
       /* border: 1px solid red; */
       text-align: center;
-      padding: 140px 80px 100px 80px;
+      padding: 50px 80px 100px 80px;
       color: white;
 
 /*       
@@ -233,6 +233,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin-top: 30px;
   }
 
   .projects img{
