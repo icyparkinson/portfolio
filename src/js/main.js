@@ -69,4 +69,4 @@ function openNav() {
 //text for footer
 let year = new Date().getFullYear()
 
-document.querySelector(".copyright").innerText=`Icy Parkinson ${year}`
+document.querySelector(".copyright").innerText=`${year}`
