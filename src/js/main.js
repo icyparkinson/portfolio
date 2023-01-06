@@ -64,3 +64,9 @@ function openNav() {
   function closeNav() {
     document.getElementById("myNav").style.width = "0%";
   } 
+
+
+//text for footer
+let year = new Date().getFullYear()
+
+document.querySelector(".copyright").innerText=`Icy Parkinson ${year}`
